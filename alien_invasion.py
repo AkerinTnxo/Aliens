@@ -8,7 +8,7 @@ import game_functions as gf
 
 
 def run_game():
-    # Иницифлизирует игру и  создает объект экрана.
+    # Иницилизирует игру и  создает объект экрана.
     pygame.init()
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
